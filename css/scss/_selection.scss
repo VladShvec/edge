@@ -1,0 +1,58 @@
+/* start selection styles */
+
+#selection {
+    background: #ff8e00 url(images/selection.jpg) no-repeat center top; // cover;
+    color: #fff;
+    
+    .in {
+        padding: 110px 20px 70px;
+    }
+    
+    .h2, h2 {
+        float:  left;
+        width: 23%;
+        margin-right: 2.2%;
+        color: #fff;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 1.1px;
+    }
+    
+    p {
+        float: left;
+        width: 27%;
+        font-size: 18px;
+        margin-top: 2px;
+        letter-spacing: 0.4px;
+    }
+    
+    .form_block {
+        float: right;
+        width: 630/1560*100%;
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+@media screen and (max-width: 1020px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+}
+
+/* end selection styles */

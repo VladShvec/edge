@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proxima_nova_light.eot');
+    src: /*local('Proxima Nova'),*/
+         url('../fonts/proxima_nova_light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_light.woff2') format('woff2'),
+         url('../fonts/proxima_nova_light.woff') format('woff'),
+         url('../fonts/proxima_nova_light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proxima_nova_regular.eot');
+    src: /*local('Proxima Nova'),*/
+         url('../fonts/proxima_nova_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_regular.woff2') format('woff2'),
+         url('../fonts/proxima_nova_regular.woff') format('woff'),
+         url('../fonts/proxima_nova_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proxima_nova_bold.eot');
+    src: /*local('Proxima Nova'),*/
+         url('../fonts/proxima_nova_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_bold.woff2') format('woff2'),
+         url('../fonts/proxima_nova_bold.woff') format('woff'),
+         url('../fonts/proxima_nova_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneuelight.eot');
+    src: /*local('Bebas Neue'),*/
+         url('../fonts/bebasneuelight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneuelight.woff2') format('woff2'),
+         url('../fonts/bebasneuelight.woff') format('woff'),
+         url('../fonts/bebasneuelight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneueregular.eot');
+    src: /*local('Bebas Neue'),*/
+         url('../fonts/bebasneueregular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneueregular.woff2') format('woff2'),
+         url('../fonts/bebasneueregular.woff') format('woff'),
+         url('../fonts/bebasneueregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneuebold.eot');
+    src: /*local('Bebas Neue'),*/
+         url('../fonts/bebasneuebold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneuebold.woff2') format('woff2'),
+         url('../fonts/bebasneuebold.woff') format('woff'),
+         url('../fonts/bebasneuebold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+

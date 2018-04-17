@@ -1,0 +1,174 @@
+/* start stocks styles */
+
+#stocks {
+    background: #fff url(images/stocks.jpg) no-repeat center top; // cover;
+    //color: #fff;
+    
+    .in {
+        padding: 85px 20px 70px;
+        
+        > .h1, > h1 {
+            margin-left: 778/1560*100%;
+            font-size: 45px;
+            color: $color_a;
+        }
+    }
+    
+    
+    
+    
+}
+
+.stocks {
+    position: relative;
+    top: -65px;
+    
+    .stock {
+        position: relative;
+        
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 105px;
+            left: 0;
+            z-index: 0;
+            width: calc(34% + 125px);
+            height: 320px;
+            background: #ff7e00;
+            background: -webkit-linear-gradient(bottom, #ffb400 0%, #ff7e00 100%); /* для webkit-браузеров */
+            background: -moz-linear-gradient(bottom, #ffb400 0%, #ff7e00 100%); /* для firefox 3.6+ */
+            background: -o-linear-gradient(bottom, #ffb400 0%, #ff7e00 100%); /* для Opera 11.10+ */
+            background: -ms-linear-gradient(bottom, #ffb400 0%, #ff7e00 100%); /* для IE10+ */
+            background: linear-gradient(to top, #ffb400 0%, #ff7e00 100%);
+        }
+        
+        &:after {
+            @include clear();
+        }
+        
+        .img {
+            float:  left;
+            position: relative;
+            width: 34%;
+            //top: -40px;
+            z-index: 2;
+            
+            
+            &:before{
+                content: "";
+                display: block;
+                padding-top: 100%;
+                position: relative;
+            }
+            
+            img {
+                position: absolute;
+                max-width: 100%;
+                left: 0;
+                top: 0;
+            }
+        }
+        
+        .info {
+            margin-left: 778/1560*100%;
+            padding-bottom: 30px;
+            padding-top: 120px;
+            max-width: 625px;
+            line-height: 185%;
+            
+            p {
+                margin-bottom: 30px
+            }
+        }
+        
+        .h2 {
+            margin-bottom: 17px;
+        }
+        
+    }
+    
+    .slick-arrow {
+	margin-top: -9px;
+	width: 40px;
+	height: 25px;
+	background: none;
+        opacity: 0.5;
+	
+	&:hover {
+	    background-color: transparent;
+            opacity: 1;
+	}
+    }
+    .slick-prev {
+	left: 34%;
+        margin-left: 13px;
+    }
+    .slick-next {
+	left: 34%;
+        margin-left: 76px;
+    }
+    
+    .slick-dots {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    margin-left: 33px;
+    margin-top: -23px;
+    padding-left: 0px;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    
+    li {
+	width: 0px;
+	height: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+	font-size: 40px;
+	line-height: 130%;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: -13px;
+        
+        &:before {
+            display: none;
+        }
+       
+	
+	&.slick-active {
+            margin-right: 0px;
+            margin-left: 0px;
+            opacity: 1;
+            color: #fff;
+	}
+    }
+}
+    
+}
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+@media screen and (max-width: 1020px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+}
+
+/* end selecstockstion styles */

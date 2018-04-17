@@ -211,47 +211,16 @@ $(document).ready(function() {
 	});
 	
 	      
-	$('.sertificates_slider').slick({
-		dots: false,
+	$('.stocks_slider').slick({
+		dots: true,
 		arrows: true,
-		infinite: true,
+		//infinite: true,
+		fade: true,
 		speed: 1300,
-		slidesToShow: 3,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 		prevArrow: '<span class="slick-prev">&nbsp;</span>',
 		nextArrow: '<span class="slick-next">&nbsp;</span>',
-		responsive: [
-		  {
-		    breakpoint: 1301,
-		    settings: {
-		      slidesToShow: 2,
-		    }
-		  },
-		  {
-		    breakpoint: 1000,
-		    settings: {
-		      slidesToShow: 1,
-		    }
-		  },
-		  {
-		    breakpoint: 801,
-		    settings: {
-		      slidesToShow: 3,
-		    }
-		  },
-		  {
-		    breakpoint: 600,
-		    settings: {
-		      slidesToShow: 2,
-		    }
-		  },
-		  {
-		    breakpoint: 400,
-		    settings: {
-		      slidesToShow: 1,
-		    }
-		  }
-		]
 	});
 	
 	

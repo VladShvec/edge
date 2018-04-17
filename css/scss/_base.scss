@@ -303,6 +303,7 @@ h6, .h6 {
     padding-right: 0;
     height: 34px;
     line-height: 34px;
+    color: $color_text;
     &:before {
 	content: "";
 	width: 46px;
@@ -569,3 +570,41 @@ h6, .h6 {
 .fancybox-enabled {
     overflow: auto;
 }
+
+#background_video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        //min-height: 700px;
+	
+	&:before {
+	    display: none;
+	    
+	    height: 100%;
+	    width: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    content: '';
+	    background: #000;
+            opacity: 0.42;
+	}
+        
+        video {
+            background-color: transparent;
+            pointer-events: none;
+            min-height: 100%; 
+            min-width: 100%; 
+            position: absolute;
+            z-index: 0;
+            left: 0;
+            top: 0;
+            height: auto;
+            width: 100%;
+            object-fit: cover;  
+        }
+    }

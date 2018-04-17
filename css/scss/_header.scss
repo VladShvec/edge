@@ -21,7 +21,7 @@ header {
     padding-bottom: 1px;
     background: #0b59d5;
     @include transition(all);
-    padding-bottom: 9px;
+    //padding-bottom: 9px;
     
     &:before {
 	content: '';

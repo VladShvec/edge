@@ -1,0 +1,173 @@
+/* start goals styles */
+
+#goals {
+    background: #fff url(images/goals.jpg) no-repeat center top; // cover;
+    //color: #fff;
+    
+    .in {
+        padding: 130px 20px 70px;
+        
+    }
+    
+    .left_block {
+        float:  left;
+        color: #fff;
+        width: calc(50% - 20px);
+        padding-top: 10px;
+        margin-right: 42px;
+        position: relative;
+        z-index: 3;
+        
+        .h1, h1 {
+            letter-spacing: 4px;
+            font-size: 61px;
+            line-height: 100%;
+            color: #fff;
+            float: left;
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+            padding-right: 45px;
+            margin-right: 42px;
+            margin-bottom: 25px;
+        }
+        
+        .button_block {
+            clear: left;
+            float: left;
+        }
+        
+        .text {
+            margin-left: calc(50% + 20px);
+            box-sizing: border-box;
+            padding-left: 20px;
+            padding-top: 15px;
+            font-size: 94%;
+            
+            p {
+                line-height: 175%;
+            }
+        }
+        
+    }
+    
+    
+    
+    
+}
+
+.goals {
+    position: relative;
+    counter-reset: goalsnum;
+    
+    .goal {
+        position: relative;
+        width: calc(25% - 32px);
+        margin-right: 42px;
+        margin-bottom: 42px;
+        padding: 35px 45px 50px;
+        height: 280px;
+        float: left;
+        background-color: #fff;
+        border-left: 1px solid #b4b4b4;
+        border-right: 1px solid #b4b4b4;
+        box-sizing: border-box;
+        
+        &:nth-child(2), &:nth-child(6) {
+            margin-right: 0;
+        }
+        
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 54px;
+            height: 54px;
+            border: 3px solid #ffae00;
+            opacity: 0;
+            @include transition(all);
+        }
+        &:before {
+            top: 0px;
+            left: 0px;
+            border-right: 0;
+            border-bottom: 0;
+        }
+        &:after {
+            bottom: 0px;
+            right: 0px;
+            border-left: 0;
+            border-top: 0;
+        }
+        
+        > div {
+            overflow: hidden;
+            height: 100%;
+        }
+        
+        .h4 {
+            letter-spacing: 2px;
+            margin-bottom: 14px;
+            
+            &:before {
+		display: block;
+		counter-increment: goalsnum;
+		content: "0" counter(goalsnum);
+                font-size: 30px;
+                line-height: 120%;
+                margin-bottom: 12px;
+                color: #d2d2d2;
+                @include transition(all);
+            }
+        }
+        
+        p {
+            line-height: 160%;
+        }
+        
+        &:hover {
+            &:before, &:after {
+                opacity: 1;
+            }
+            
+            &:before {
+                top: 10px;
+                left: -15px;
+            }
+            &:after {
+                bottom: 10px;
+                right: 10px;
+            }
+            
+            .h4 {
+                &:before {
+                    color: #ffae00;       
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+@media screen and (max-width: 1020px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+}
+
+/* end goals styles */

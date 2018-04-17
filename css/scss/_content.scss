@@ -76,7 +76,7 @@
 
 main {
     position: relative;
-    margin-top: 105px;
+    margin-top: 91px;
         
         
 }
@@ -195,8 +195,8 @@ height: 393px;
 .text {
     line-height: 170%;
     font-weight: 300;
-    padding-right: 65px;
-    margin-top: -28px;
+    //padding-right: 65px;
+    //margin-top: -28px;
         margin-left: 13px;
     margin-bottom:  31px;       
     h4 {
@@ -237,11 +237,6 @@ height: 393px;
                 transition: all 0.3s ease 0s;
                 margin-right: -14px;
                 margin-bottom: -3px;
-                -moz-transform: skewX(-15deg);
-                -ms-transform: skewX(-15deg);
-                -webkit-transform: skewX(-15deg);
-                -o-transform: skewX(-15deg);
-                transform: skewX(-15deg);
                 display: inline-block;
                 background: url("images/arrow.png") no-repeat;
                 margin-left: -31px;

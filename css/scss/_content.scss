@@ -76,7 +76,7 @@
 
 main {
     position: relative;
-    margin-top: 91px;
+    margin-top: 106px;
         
         
 }
@@ -118,11 +118,11 @@ height: 393px;
 	font-weight: 900;
             
     }
-                    height: 2500px;    
+                    height: 2787px;    
     h1 {
 	position: relative;
 	z-index: 1;
-	margin-bottom: 40px;
+	margin-bottom: 39px;
             margin-left: 69px;
     font-family: 'Bebas Neue';
     font-weight: bold; 
@@ -131,13 +131,17 @@ height: 393px;
         h2 , h5
         {
                 margin-left: 50px;
-                margin-bottom: 51px;
+                margin-bottom: 49px;
                 line-height: 43px;
                   color: #111111;
         }
+        h4{
+                margin-left: 35px;
+                color: #111;
+        }
         h5
         {
-                margin-top: -13px;
+                margin-top: -19px;
                 margin-left: 32px;
                 letter-spacing: 1px;
               
@@ -151,14 +155,18 @@ height: 393px;
         }
         h6
         {
-                margin-top: 50px;
+                margin-top: 54px;
                 margin-left: 31px;
+                margin-bottom: 60px;
         }
    .span
         {
                 display: block;
         }
-        
+      .left
+        {
+                margin-right: 74px;
+        }
     
     .datetime {
 	display: inline-block;
@@ -198,12 +206,13 @@ height: 393px;
     //padding-right: 65px;
     //margin-top: -28px;
         margin-left: 13px;
-    margin-bottom:  31px;       
+    margin-bottom: 35px;
+        margin-top: -27px;     
     h4 {
 	
         font-weight: 700;
         padding-left: 23px;
-        padding-top: 18px;
+        padding-top: 7px;
         color: #111;
         
     
@@ -313,6 +322,7 @@ height: 393px;
     
     table {
 	//margin-left: -40px;
+            text-align: left;
 	tr {
 	    background-color: #f4f7fb;
 	    border-bottom: 10px solid #fff;
@@ -648,7 +658,9 @@ height: 393px;
 
 #news_item
 {
-   
+        h2{
+                font-size: 31px;
+        }
         
 header
 {

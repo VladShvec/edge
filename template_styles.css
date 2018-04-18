@@ -2232,7 +2232,7 @@ main {
   height: 393px; }
 
 .content {
-  height: 2500px; }
+  height: 2787px; }
   .content .h1_bg {
     position: absolute;
     color: #eef4f6;
@@ -2254,8 +2254,11 @@ main {
     margin-bottom: 49px;
     line-height: 43px;
     color: #111111; }
+  .content h4 {
+    margin-left: 35px;
+    color: #111; }
   .content h5 {
-    margin-top: -21px;
+    margin-top: -19px;
     margin-left: 32px;
     letter-spacing: 1px; }
   .content h3 {
@@ -2264,8 +2267,9 @@ main {
     color: #111111;
     margin-bottom: 58px; }
   .content h6 {
-    margin-top: 50px;
-    margin-left: 31px; }
+    margin-top: 54px;
+    margin-left: 31px;
+    margin-bottom: 60px; }
   .content .span {
     display: block; }
   .content .left {
@@ -2299,7 +2303,7 @@ main {
   .text h4 {
     font-weight: 700;
     padding-left: 23px;
-    padding-top: 18px;
+    padding-top: 7px;
     color: #111; }
   .text span {
     font-weight: 700; }
@@ -2381,12 +2385,14 @@ main {
       /* ╨┤╨╗╤П IE10+ */
       background: linear-gradient(135deg, #26baff 0%, #1269d1 100%); }
 
-table tr {
-  background-color: #f4f7fb;
-  border-bottom: 10px solid #fff; }
-table td {
-  padding: 15px 20px;
-  width: 50%; }
+table {
+  text-align: left; }
+  table tr {
+    background-color: #f4f7fb;
+    border-bottom: 10px solid #fff; }
+  table td {
+    padding: 15px 20px;
+    width: 50%; }
 
 #article .wrapper {
   background: none; }

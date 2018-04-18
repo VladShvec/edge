@@ -118,7 +118,7 @@ height: 393px;
 	font-weight: 900;
             
     }
-                    height: 2500px;    
+                    height: 2787px;    
     h1 {
 	position: relative;
 	z-index: 1;
@@ -135,9 +135,13 @@ height: 393px;
                 line-height: 43px;
                   color: #111111;
         }
+        h4{
+                margin-left: 35px;
+                color: #111;
+        }
         h5
         {
-                margin-top: -21px;
+                margin-top: -19px;
                 margin-left: 32px;
                 letter-spacing: 1px;
               
@@ -151,8 +155,9 @@ height: 393px;
         }
         h6
         {
-                margin-top: 50px;
+                margin-top: 54px;
                 margin-left: 31px;
+                margin-bottom: 60px;
         }
    .span
         {
@@ -207,7 +212,7 @@ height: 393px;
 	
         font-weight: 700;
         padding-left: 23px;
-        padding-top: 18px;
+        padding-top: 7px;
         color: #111;
         
     
@@ -317,6 +322,7 @@ height: 393px;
     
     table {
 	//margin-left: -40px;
+            text-align: left;
 	tr {
 	    background-color: #f4f7fb;
 	    border-bottom: 10px solid #fff;

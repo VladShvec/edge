@@ -210,6 +210,36 @@ $(document).ready(function() {
 	    };
 	});
 	
+	$('.adv_slider').slick({
+	    dots: true, 
+	    arrows:true, //false,
+	    infinite: false,
+	    speed: 1200,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    centerMode: true,
+	    prevArrow: '<span class="slick-prev">&nbsp;</span>',
+	    nextArrow: '<span class="slick-next">&nbsp;</span>',
+	});
+	
+	var timer = false;
+	$('.adv_menu li').click(function(){
+	  if(!timer){
+	    timer = true;
+	    var el = $(this);
+	    if(!el.hasClass('active')){
+	      var nextTab = el.index();
+	      $('.adv_menu .active').removeClass('active');
+	      $('.adv_slider').slick('slickGoTo', nextTab);
+	      el.addClass('active');
+	    }
+	    setTimeout(function(){
+	      timer = false;
+	    }, 1000)
+	  }
+	  return false;
+	})
+	
 	      
 	$('.stocks_slider').slick({
 		dots: true,

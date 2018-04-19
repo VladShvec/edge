@@ -1,10 +1,10 @@
 /*
-Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 220 of css/scss/_content.scss
+Error: Invalid CSS after "": expected selector, was "======="
+        on line 221 of css/scss/_content.scss
         from line 15 of css/scss/style.scss
 
 Backtrace:
-css/scss/_content.scss:220
+css/scss/_content.scss:221
 css/scss/style.scss:15
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
@@ -74,4 +74,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 220 of css/scss/_content.scss\A         from line 15 of css/scss/style.scss"; }
+  content: "Error: Invalid CSS after \"\": expected selector, was \"=======\"\A         on line 221 of css/scss/_content.scss\A         from line 15 of css/scss/style.scss"; }

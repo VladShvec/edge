@@ -13,7 +13,7 @@
 	font-size: 45px;
 	margin-bottom: 40px;
 	position: relative;
-	z-index: 2
+	z-index: 2;
     }
     
     .form_block {
@@ -162,85 +162,24 @@
 
 
 @media screen and (max-width: 1600px) {
-    #contacts_page {
-	#accordion, .text.blue {
-	    margin-right: calc(40% + 20px);
-	}
-    }
     
-    .map, #map {
-	width: 40%;
-    }
 }
 
 @media screen and (max-width: 1300px)  {
-    #contacts_page {
-	#accordion, .text.blue {
-	    margin-right: calc(45% + 20px);
-	}
-    }
     
-    .map, #map {
-	width: 45%;
-    }
 }
 @media screen and (max-width: 999px) {
-    #contacts_page {
-	
-    }
-}
-
-
-@media screen and (max-width: 800px) {
-    #contacts_page {
-	#accordion, .text.blue {
-	    margin-right: 0;
-	}
-	
-	.content {
-	    padding-bottom: 50px;
-	}
-    }
     
-    .map, #map {
-	width: 100%;
-	float: none;
-	padding-top: 50px;
-	padding-bottom: 1px;
-	overflow: hidden;
-	max-height: 500px;
-	
-	.in {
-	    width: calc(100% - 80px);
-	    min-height: 150px;
-	    margin-left: 20px;
-	    overflow: hidden;
-	    max-height: 400px;
-	    
-	    iframe {
-		margin-top: -50px;
-	    }
-	    
-	    &:after {
-		padding-top: 50%;
-	    }
-	}
-    }
+}
+@media screen and (max-width: 800px) {
+    
 }
 
 @media screen and (max-width: 590px) {
 }
 
 @media screen and (max-width: 450px) {
-    .map, #map {
-	
-	.in {
-	    
-	    &:after {
-		padding-top: 80%;
-	    }
-	}
-    }
+    
 }
 
 /* end contacts styles */

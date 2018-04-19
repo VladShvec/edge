@@ -1,0 +1,293 @@
+/* start advantages styles */
+
+#advantages {
+    //z-index: 2;
+    overflow: hidden;
+    background: #000c1e url(images/advantages_bg.jpg) no-repeat center top; // cover;
+    
+    .in {
+	padding: 175px 20px 100px;
+	color: #fff;
+    }
+    
+    .left_block {
+	width: 640/1560*100%;
+	float: left;
+	
+	p {
+	    line-height: 157%;
+	    margin-bottom: 10px;
+	}
+    }
+    
+    .h1 {
+	max-width: 450px;
+	color: #fff;
+	font-size: 60px;
+	line-height: 100%;
+	letter-spacing: 3px;
+	margin-bottom: 28px;
+	
+	.yellow {
+	    color: #ffb400;
+	}
+    }
+    
+    .button {
+	margin-top: 30px;
+    }
+    
+}    
+    .advantages_block {
+	margin-left: 809/1560*100%;
+	padding-top: 41px;
+	
+	li {
+	    text-align: left;
+	    width: 45%;
+	    max-width: 300px;
+	    margin-right: 11.6%;
+	    padding: 46px 0px 19px 21px;
+	    box-sizing: border-box;
+	    display: inline-block;
+	    vertical-align: top;
+	    background: none;
+	    position: relative;
+	    line-height: 145%;
+	    margin-bottom: 0px;
+	    position: relative;
+	    
+	    &:nth-child(2n) {
+		margin-right: 0;
+	    }
+	    
+	    &:before {
+		position: absolute;
+		z-index: 0;
+		content: '';
+		left: 0px;
+		top: -0px;
+		width: 100px;
+		height: 100px;
+		background: url(images/dots_bg.png) repeat left top;
+	    }
+	    
+	    .h4, .num {
+		text-transform: uppercase;
+		font-weight: 700;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		font-family: $font_family_h;
+		color: #ffb400;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+	    }
+	    
+	    .num {
+		font-size: 60px;
+		line-height: 100%;
+		letter-spacing: 7px;
+	    }
+	    
+	    p {
+		
+	    }
+	}
+    }
+    
+    .types .advantages_block{
+	margin-left: 400/1560*100%;
+	counter-reset: num;
+	
+	li {
+	    margin-right: 2%;
+	    width: 29%;
+	    max-width: none;
+	    padding-left: 110px;
+	    padding-bottom: 0;
+	    
+	    &:last-child {
+		width: 35%;
+	    }
+	    
+	    &:before {
+		counter-increment: num; 
+		content: counter(num);
+		color: $color_a;
+		font-weight: 700;
+		font-size: 60px;
+		text-align: center;
+		line-height: 105px;
+		top: -15px;
+	    }
+	    
+	    .h4 {
+		font-size: 22px;
+	    }
+	    
+	    p{
+		color: #999999;
+	    }
+	}
+    }
+
+
+     #advantages.types {
+	.in {
+	    padding-bottom: 50px;
+	}
+	
+	.left_block {
+	    width: 400/1560*100%;
+	}
+    }
+
+@media advantages and (max-width: 1600px) {
+    #advantages {
+	.in {
+	    padding: 120px 20px 70px;
+	}
+	.h1 {
+	    font-size: 50px;
+	    line-height: 100%;
+	}
+	.advantages_block {
+	    
+	    li {
+		margin-right: 5%;
+	    }
+	}
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #advantages {
+	.in {
+	    padding: 100px 20px 60px;
+	}
+	
+	.h1 {
+	    font-size: 40px;
+	    line-height: 100%;
+	}
+	.advantages_block {
+	    margin-left: 750/1560*100%;
+	    padding-top: 0px;
+	    
+	    li {
+		margin-bottom: 10px;
+		margin-right: 3%;
+	    }
+	}
+    }
+}
+@media screen and (max-width: 1020px) {
+    #advantages {
+	.in {
+	    padding: 60px 20px 60px;
+	}
+	
+	.h1 {
+	    font-size: 40px;
+	    line-height: 100%;
+	}
+	.left_block {
+	    width: 740/1560*100%;
+	}
+	.advantages_block {
+	    margin-left: 800/1560*100%;
+	    
+	    li {
+		padding-left: 50px;
+		
+		&:before {
+		    width: 70px;
+		    height: 70px;
+		}
+		
+		.numeric {
+		    font-size: 50px;
+		    line-height: 100%;
+		}
+	    }
+	}
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    #advantages {
+	.in {
+	    padding: 40px 20px 40px;
+	}
+	
+	.h1 {
+	    font-size: 35px;
+	    line-height: 100%;
+	}
+	.left_block {
+	    width: auto;
+	    float: none;
+	}
+	.advantages_block {
+	    margin-left: 0;
+	    padding-top: 30px;
+	    
+	    li {
+		padding-left: 35px;
+		width: 24%;
+		margin-right: 0;
+		padding-bottom: 0px;
+		
+		&:before {
+		    width: 50px;
+		    height: 50px;
+		}
+		.numeric {
+		    font-size: 40px;
+		    line-height: 100%;
+		}
+	    }
+	}
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #advantages {
+	
+	.h1 {
+	    font-size: 30px;
+	    line-height: 100%;
+	}
+	.advantages_block {
+	    li {
+		width: 40%;
+		margin-right: 4.5%;
+		.numeric {
+		    font-size: 30px;
+		    line-height: 100%;
+		}
+	    }
+	}
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #advantages {
+	
+	.h1 {
+	    font-size: 25px;
+	    line-height: 100%;
+	}
+	.advantages_block {
+	    li {
+		width: 80%;
+		margin-right: 10%;
+		margin-bottom: 0;
+	    }
+	}
+    }
+}
+
+/* end turnkey_work styles */

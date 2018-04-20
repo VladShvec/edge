@@ -842,12 +842,15 @@ header
         }
         }
         #advantages{
+                .button{margin-right: 41px;}
                 .h1{
                         max-width: 649px;
                 }
         }
         #production
         {padding-top: 150px;padding-bottom: 50px;
+        background-image: url(images/production-bg.jpg);
+                background-position-x: -45px;
                .left_block 
                 {
                        // width: 41.0256410256%;
